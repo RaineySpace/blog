@@ -26,8 +26,8 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://transitivebullsh.it/page-icon.png',
+  defaultPageCover: 'https://transitivebullsh.it/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -51,6 +51,10 @@ export default siteConfig({
     '/drama': 'bcd03807c6294cb6820820de6540184e',
     '/book': '33e2b7d3f270471cb03fdad939cb0f5b',
     '/photography': '347e8212dac546fbbf79c631f56cf9c1',
+  },
+
+  pageUrlAdditions: {
+    '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
   },
 
   // whether to use the default notion navigation style or a custom one with links to
